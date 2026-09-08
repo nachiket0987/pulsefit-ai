@@ -1,4 +1,4 @@
-# ? PulseFit AI
+﻿# ⚡ PulseFit AI
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![LLM: Google Gemini](https://img.shields.io/badge/LLM-Google%20Gemini-orange.svg)](https://aistudio.google.com/)
@@ -11,7 +11,7 @@
 
 ---
 
-## ?? Key Architectural Highlights
+## 💡 Key Architectural Highlights
 
 - **Zero-LLM Math Isolation**: All arithmetic (tonnage, e1RM, fatigue drop-offs, LTHR zones, aerobic decoupling, ACWR workload ratios) is computed in pure, unit-tested Python. Google Gemini strictly interprets pre-calculated metrics into actionable coaching prose.
 - **Single Source of Truth (Strava + Hevy Parser)**: Weight training sets are parsed directly from Strava's activity descriptions (as written by Hevy exports), eliminating paid API dependencies.
@@ -20,7 +20,7 @@
 
 ---
 
-## ??? Architecture & Pipeline Workflow
+## 🏗️ Architecture & Pipeline Workflow
 
 ```mermaid
 flowchart TD
@@ -56,7 +56,7 @@ flowchart TD
 
 ---
 
-## ?? Quick Setup & Installation
+## 🚀 Quick Setup & Installation
 
 ### 1. Prerequisites
 - **Python 3.12+** & **uv** (or standard `venv`)
@@ -101,7 +101,7 @@ python scripts/setup_telegram_webhook.py set
 
 ---
 
-## ?? Deploying to Vercel
+## 📡 Deploying to Vercel
 
 ```bash
 npm i -g vercel
@@ -113,7 +113,7 @@ vercel --prod                # Production release
 
 ---
 
-## ?? Supported Telegram Commands
+## 🤖 Supported Telegram Commands
 
 | Command | Purpose |
 |---|---|
@@ -128,7 +128,7 @@ vercel --prod                # Production release
 
 ---
 
-## ?? Author & Maintainer
+## 👤 Author & Maintainer
 
 **Nachiket Gadilohar**
 - **Email**: [nachiketlohar0306@gmail.com](mailto:nachiketlohar0306@gmail.com)
@@ -137,5 +137,5 @@ vercel --prod                # Production release
 
 ---
 
-## ?? License
+## 📄 License
 Project developed for personal use and open portfolio demonstration.
