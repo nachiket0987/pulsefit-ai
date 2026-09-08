@@ -137,5 +137,3 @@ vercel --prod                # Production release
 
 ---
 
-## 📄 License
-Project developed for personal use and open portfolio demonstration.
