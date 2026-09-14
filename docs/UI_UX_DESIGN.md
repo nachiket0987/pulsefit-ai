@@ -5,6 +5,6 @@
 
 ---
 
-## 1. Design Tokens & Layout
-- **Primary Color**: Neon Emerald (#10b981) & Cyber Black (#090d16).
-- **Dashboard Sections**: Top: Daily Recovery Score Dial; Middle: Recommended Workout Plan; Bottom: Volume Trends.
+## 1. Interface & Theme
+- **Color Tokens**: Cyber Black (#090d16), Neon Emerald (#10b981), Warning Amber (#f59e0b).
+- **Dashboard Layout**: Top: Daily Recovery Gauge (0-100 Score); Middle: Adaptive Workout Prescriptions; Bottom: HRV Trends Chart.
