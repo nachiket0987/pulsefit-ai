@@ -5,7 +5,7 @@
 
 ---
 
-## 1. Roadmap & DoD
+## 1. Milestones
 - [x] Biometric analytics engine setup.
-- [x] Conversational agent integration.
-- [x] Dashboard UI implementation & deployment.
+- [x] AI Coach LLM prompt engineering & agent setup.
+- [x] Streamlit analytics dashboard deployment.
