@@ -5,12 +5,18 @@
 
 ---
 
-## 1. Architecture Diagram
+## 1. Architecture Overview
 
 ```mermaid
 graph TB
-    Wearables["Biometric Data (CSV / API)"] --> Ingestion["FastAPI Data Ingestion"]
-    Ingestion --> Analytics["Scikit-Learn Analytics Engine"]
-    Analytics --> Agent["PulseFit LLM Coach Agent"]
-    Agent --> UI["Streamlit / React Dashboard"]
+    Wearables["Wearables / CSV Log"] --> Ingestion["FastAPI Telemetry Ingestion"]
+    Ingestion --> ML["Scikit-Learn Analytics & Recovery Calculator"]
+    ML --> Agent["PulseFit Autonomous LLM Coach"]
+    Agent --> UI["Streamlit Analytics Dashboard"]
 ```
+
+### Component Details:
+- **Backend API**: FastAPI, Python 3.10.
+- **Analytics & ML**: Pandas, NumPy, Scikit-Learn, SciPy.
+- **AI Agent**: LangChain / OpenAI GPT-4o.
+- **Frontend**: Streamlit / React UI.
